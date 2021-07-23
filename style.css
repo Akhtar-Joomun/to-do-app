@@ -7,6 +7,8 @@
   background-color: antiquewhite;
   display: flex;
   margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid rgb(84, 64, 38);
 }
 
 .to-do-app {
@@ -38,6 +40,10 @@
 .my-lists {
   display: flex;
   margin: 1rem;
+}
+
+.my-list {
+    font-weight: bolder;
 }
 
 .create-item,
