@@ -16,9 +16,9 @@
 }
 
 .ul-con {
-    background-color: antiquewhite;
-    display: flex;
-    margin: 0 auto;
+  background-color: antiquewhite;
+  display: flex;
+  margin: 0 auto;
 }
 
 .to-do-app {
@@ -47,7 +47,7 @@
 
 .need-to-do {
   margin-top: 2.5rem;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 0;
 }
 
