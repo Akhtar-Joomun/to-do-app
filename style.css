@@ -2,17 +2,33 @@
   padding: 0;
 }
 
+.body {
+  border-radius: 5px;
+  border: 1px solid rgb(84, 64, 38);
+  width: 35%;
+  margin: 0 auto;
+}
+
 .container {
-  width: 30%;
   background-color: antiquewhite;
   display: flex;
   margin: 0 auto;
-  border-radius: 5px;
-  border: 1px solid rgb(84, 64, 38);
+}
+
+.ul-con {
+  background-color: antiquewhite;
+  display: flex;
+  margin: 0 auto;
+}
+
+.my-ul {
+  width: 95%;
+  margin: 0 auto;
 }
 
 .to-do-app {
   margin: 0 auto;
+  width: 80%;
 }
 
 .to-do-title-con {
@@ -24,6 +40,12 @@
   margin: 3rem auto;
 }
 
+.need-to-do-con {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .to-do-title,
 .need-to-do {
   color: rgb(84, 64, 38);
@@ -31,15 +53,23 @@
 
 .need-to-do {
   margin-top: 2.5rem;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
 }
 
 .my-field {
   display: flex;
+  margin: 0 auto;
 }
 
 .my-lists {
   display: flex;
   margin: 1rem;
+  margin-top: 0;
+  margin-left: 2rem;
 }
 
 .my-list {
