@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+}
+
+.container {
+  width: 30%;
+  background-color: antiquewhite;
+  display: flex;
+  margin: 0 auto;
+}
+
+.to-do-app {
+  margin: 0 auto;
+}
+
+.to-do-title-con {
+  font-size: x-large;
+  display: flex;
+}
+
+.to-do-title {
+  margin: 3rem auto;
+}
+
+.to-do-title,
+.need-to-do {
+  color: rgb(84, 64, 38);
+}
+
+.need-to-do {
+  margin-top: 2.5rem;
+}
+
+.my-field {
+  display: flex;
+}
+
+.my-lists {
+  display: flex;
+  margin: 1rem;
+}
+
+.create-item,
+.del-button {
+  margin-left: 0.5rem;
+  color: #fff;
+  background-color: rgb(84, 64, 38);
+  padding: 0.02rem 0.2rem;
+}
+
+.create-item:hover,
+.del-button:hover {
+  cursor: pointer;
+}
