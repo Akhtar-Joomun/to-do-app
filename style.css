@@ -2,13 +2,23 @@
   padding: 0;
 }
 
-.container {
+.body {
+  border-radius: 5px;
+  border: 1px solid rgb(84, 64, 38);
   width: 30%;
+  margin: 0 auto;
+}
+
+.container {
   background-color: antiquewhite;
   display: flex;
   margin: 0 auto;
-  border-radius: 5px;
-  border: 1px solid rgb(84, 64, 38);
+}
+
+.ul-con {
+    background-color: antiquewhite;
+    display: flex;
+    margin: 0 auto;
 }
 
 .to-do-app {
@@ -24,6 +34,12 @@
   margin: 3rem auto;
 }
 
+.need-to-do-con {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .to-do-title,
 .need-to-do {
   color: rgb(84, 64, 38);
@@ -31,15 +47,23 @@
 
 .need-to-do {
   margin-top: 2.5rem;
+  justify-content:space-between;
+  margin-bottom: 0;
+}
+
+.form {
+  display: flex;
 }
 
 .my-field {
   display: flex;
+  margin: 0 auto;
 }
 
 .my-lists {
   display: flex;
   margin: 1rem;
+  margin-top: 0;
 }
 
 .my-list {
@@ -52,6 +76,10 @@
   color: #fff;
   background-color: rgb(84, 64, 38);
   padding: 0.02rem 0.2rem;
+}
+
+.my-lists {
+  margin-left: 2rem;
 }
 
 .create-item:hover,
