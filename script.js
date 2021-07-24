@@ -1,6 +1,6 @@
-const form = document.querySelector('.form');
 const myInput = document.querySelector('.my-input');
 const myUl = document.querySelector('.my-ul');
+const createItem = document.querySelector('.create-item');
 
 const createList = (x) => {
   const myHtml = `<div class="my-lists">
@@ -8,12 +8,12 @@ const createList = (x) => {
       <button onclick="deleteItem(this)" class="del-button">Delete</button>
   </div>`;
   myUl.insertAdjacentHTML('beforeend', myHtml);
+  myInput.value = '';
 };
 
-form.addEventListener('submit', (e) => {
+createItem.addEventListener('click', (e) => {
   e.preventDefault();
   createList(myInput.value);
-  myInput.value = '';
 });
 
 // eslint-disable-next-line
