@@ -9,6 +9,7 @@ const createList = (x) => {
   </div>`;
   myUl.insertAdjacentHTML('beforeend', myHtml);
   myInput.value = '';
+  myInput.focus();
 };
 
 createItem.addEventListener('click', (e) => {
